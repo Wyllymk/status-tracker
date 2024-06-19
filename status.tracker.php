@@ -58,6 +58,12 @@ function fsd_load_custom_wp_admin_scripts( $hook ) {
     );
     wp_enqueue_script( 'status-tracker' );
  
+    wp_localize_script( 'status-tracker', 'localizedData',
+		array( 
+			'homeUrl' => home_url(),
+		)
+	);
+
     // Load our style.css.
     wp_register_style(
         'status-tracker',

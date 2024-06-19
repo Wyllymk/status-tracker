@@ -1,4 +1,4 @@
-.toplevel_page_fsd-page-status-tracker #wpcontent {
+.toplevel_page_status-tracker #wpcontent {
   background: #fff;
   height: 1000px;
 }
@@ -11,53 +11,53 @@ button .components-spinner {
   margin-left: 0;
 }
 
-#fsd-page-status-tracker {
+#status-tracker {
   max-width: 800px;
 }
 
-#fsd-page-status-tracker ul,
-#fsd-page-status-tracker ul li {
+#status-tracker ul,
+#status-tracker ul li {
   list-style-type: disc;
 }
 
-#fsd-page-status-tracker .components-search-control__input {
+#status-tracker .components-search-control__input {
   height: 36px;
   margin-left: 0;
 }
 
-#fsd-page-status-tracker .list-controls {
+#status-tracker .list-controls {
   display: flex;
   width: 100%;
 }
 
-#fsd-page-status-tracker .list-controls .components-search-control {
+#status-tracker .list-controls .components-search-control {
   flex-grow: 1;
 }
 
-#fsd-page-status-tracker table td {
+#status-tracker table td {
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ddd;
 }
 
-#fsd-page-status-tracker .components-base-control__field {
+#status-tracker .components-base-control__field {
   margin: 0;
 }
 
-#fsd-page-status-tracker .status-code-0 {
+#status-tracker .status-code-0 {
   background-color: #fff;
 }
-#fsd-page-status-tracker .status-code-1 {
+#status-tracker .status-code-1 {
   background-color: #fcf4cc;
 }
-#fsd-page-status-tracker .status-code-2 {
+#status-tracker .status-code-2 {
   background-color: #cce2e3;
 }
-#fsd-page-status-tracker .status-code-3 {
+#status-tracker .status-code-3 {
   background-color: #dae9da;
 }
 
-#fsd-page-status-tracker .filter-bar {
+#status-tracker .filter-bar {
   display: flex;
   width: 100%;
   gap: 20px;
